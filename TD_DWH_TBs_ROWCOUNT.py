@@ -15,7 +15,7 @@ udaExec = teradata.UdaExec (appName="HelloWorld", version="1.0",
         logConsole=False)
  
 session = udaExec.connect(method="odbc", system=host,
-        username="dbc", password="dbc");
+        username=ID_USER, password=PW_USER);
  
 print( ' \n CONNESSIONE EFFETTUATA \n' )
    
