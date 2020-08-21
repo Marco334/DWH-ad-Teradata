@@ -1,5 +1,6 @@
 #pip install teradatasql
 #Script useful to extract all the DWH Table list and the related rowcount in easy way 
+#IMPORTANT !! -- CHANGE  DB NAME in the query BEFORE USE IT  
 import teradata
 import teradatasql
 import pandas as pd
