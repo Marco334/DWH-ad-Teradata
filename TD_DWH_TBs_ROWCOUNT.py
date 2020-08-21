@@ -60,6 +60,9 @@ print('\n IN THE DWH THE FOLLOWING TABLES ARE AVAILABLE,\n YOU WILL FIND THE REL
 
 curr_2 = session.execute(QUERY_3)
 sql_data = pd.DataFrame(curr_2.fetchall())
+#Rename Dataframe column
+sql_data = sql_data.rename(columns={0: 'TABLE_NAME',1: 'ROW_COUNT'})
+
 print(sql_data)
 print('\n\n\n')
     
