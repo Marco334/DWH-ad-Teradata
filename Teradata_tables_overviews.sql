@@ -1,4 +1,4 @@
--- You will be able to retrive , object type, Table rowcount , Last statistic refresh )
+-- You will be able to retrive , object type, Table rowcount , Last statistic refresh and actuale SPACE  )
 
 -- 2 QUERY
 ----- REMOUVE THE FLAST UNION ALL 
