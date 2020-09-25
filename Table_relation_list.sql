@@ -1,7 +1,6 @@
 -- Quali tabelle hanno chiavi esterne e con quali altre ?
 -- Tables having FK belonging as PK to other tables (rleations )
-SELECT DISTINCT ChildDB || '.' || ChildTable AS ForeignTable
-               ,'>-' AS Rel
+SELECT DISTINCT ChildDB || '.' || ChildTable AS ForeignTable 
                ,ParentDB || '.' || ParentTable AS PrimaryTable
                  
            FROM DBC.All_RI_ChildrenV
